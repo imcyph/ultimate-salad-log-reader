@@ -1,5 +1,6 @@
 # Ultimate Salad Log Reader
 USLR is intended to read the logs locally on a machine to provide the ability to monitor each machine's workload statuses without hassle.
+
 ![image](https://github.com/user-attachments/assets/3cf16aa6-d5e4-4e4a-8c3b-f4adad059134)
 
 ## Instalation
