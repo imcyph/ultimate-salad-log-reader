@@ -16,7 +16,7 @@ USLR is intended to read the logs locally on a machine to provide the ability to
 4. Follow the in-app instructions to clone the repository.
 
 ## Contribution
-USLR Is open to any improvements, bug reports or feature suggestions. Feel Free to open a pull request or issue.
+USLR Is open to any improvements, bug reports or feature suggestions. Feel free to open a pull request or issue.
 
 ## Credit
 USLR's logic is initally based off of https://github.com/FemboyNova/SIE/tree/main and rewritten with added QOL improvements in C#.
