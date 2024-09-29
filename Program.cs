@@ -25,7 +25,7 @@ class Program
         Console.Write("Checking for logs at: ");
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(directoryPath);
-        Console.ResetColor(); // Reset to default color
+        Console.ResetColor();
 
         // Check for logs
         if (!Directory.Exists(directoryPath))
@@ -134,7 +134,7 @@ class Program
 
         if (logFilePath != null)
         {
-            // Open the file in read-only mode
+            // Open the file in read-only mode due to Salad-Bowl.Service writing to it
             using (var stream = new FileStream(logFilePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             using (var reader = new StreamReader(stream))
             {
